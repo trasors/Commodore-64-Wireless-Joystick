@@ -22,7 +22,7 @@ The transmitter uses an ATmega328p microcontroller to read joystick inputs and s
 ![TX PCB layout](images/c64-joystick-tx.png)
 
 ** Final boards **
-![TX overview](images/tx-overview.jpg) | ![TX top](images/tx-top.jpg) | ![TX bottom](images/tx-bottom.jpg)
+| ![TX overview](images/tx-overview.jpg) | ![TX top](images/tx-top.jpg) | ![TX bottom](images/tx-bottom.jpg) |
 
 ### 2.2 Receiver (RX)
 
