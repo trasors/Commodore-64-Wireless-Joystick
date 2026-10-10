@@ -17,7 +17,7 @@ The EAGLE design files are located in the [`eagle/`](eagle/) directory. To modif
 
 The transmitter uses an ATmega328p microcontroller to read joystick inputs and send the corresponding button and directional states wirelessly via an nRF24L01+ transceiver. An MCP23008 was added the handle extra the buttons for MAME.
 
-**PCB layout**
+** PCB layout **
 
 ![TX PCB layout](images/c64-joystick-tx.png)
 
@@ -28,12 +28,12 @@ The transmitter uses an ATmega328p microcontroller to read joystick inputs and s
 
 The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to receive joystick data and translate it into signals compatible with the Commodore 64 joystick port.
 
-**PCB layout**
+** PCB layout **
 
 ![RX PCB layout](images/c64-joystick-rx.png)
 
 ** Final boards **
-![RX overview](images/tx-overview.jpg) | ![RX top](images/rx-top.jpg) | ![RX bottom](images/rx-bottom.jpg)
+| ![RX overview](images/tx-overview.jpg) | ![RX top](images/rx-top.jpg) | ![RX bottom](images/rx-bottom.jpg) |
 
 ### 2.3 Bill of Materials (BOM)
 
