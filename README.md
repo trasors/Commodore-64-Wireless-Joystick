@@ -15,7 +15,7 @@ The EAGLE design files are located in the [`eagle/`](eagle/) directory. To modif
 
 ### 2.1 Transmitter (TX)
 
-The transmitter uses an ATmega328p microcontroller to read joystick inputs and send the corresponding button and directional states wirelessly via an nRF24L01+ transceiver. An MCP23008 was added the handle extra the buttons for MAME.
+The transmitter uses an ATmega328p microcontroller to read joystick inputs and send the corresponding button and directional states wirelessly via an nRF24L01+ transceiver. An MCP23008 was added to handle the extra buttons for MAME.
 
 | PCB Layout | Top | Bottom |
 | --- | --- | --- |
