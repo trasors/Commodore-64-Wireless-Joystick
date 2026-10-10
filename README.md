@@ -27,26 +27,24 @@ The transmitter uses an ATmega328p microcontroller to read joystick inputs and s
 
 The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to receive joystick data and translate it into signals compatible with the Commodore 64 joystick port.
 
-**PCB layout**
-
-![RX PCB layout](images/c64-joystick-rx.png)
-
 ** Final boards **
-| Overview | Top | Bottom |
-| --- | --- | --- |
-| ![RX overview](images/rx-overview.jpg) | ![RX top](images/rx-top.jpg) | ![RX bottom](images/rx-bottom.jpg) |
+| PCB Layout | Overview | Top | Bottom |
+| --- | --- | --- | --- |
+| ![RX PCB layout](images/c64-joystick-rx.png) | ![RX overview](images/rx-overview.jpg) | ![RX top](images/rx-top.jpg) | ![RX bottom](images/rx-bottom.jpg) |
 
 ### 2.3 Bill of Materials (BOM)
 
 The following provides a list of the main components. Refer to the EAGLE schematics for exact component values, quantities, and specifications etc.
 
 #### Receiver
+
 1 x ATTiny 1634
 1 x nRF24L01+
 1 x MCP1700 3.3V
 2 x 9-pin D-SUB Female (PCB board mount variety)
 
 #### Transmitter
+
 1 x ATMega 328p QFP32
 1 x nRF24L01+
 1 x TP4056 (for LIPO battery and USB charging)
