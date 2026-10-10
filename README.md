@@ -33,6 +33,8 @@ The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to
 ![RX PCB layout](images/c64-joystick-rx.png)
 
 ** Final boards **
+| Overview | Top | Bottom |
+| --- | --- | --- |
 | ![RX overview](images/tx-overview.jpg) | ![RX top](images/rx-top.jpg) | ![RX bottom](images/rx-bottom.jpg) |
 
 ### 2.3 Bill of Materials (BOM)
