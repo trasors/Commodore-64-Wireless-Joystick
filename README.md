@@ -2,7 +2,7 @@
 
 A DIY wireless joystick system for the Commodore 64, using nRF24L01+ wireless modules and ATtiny/ATmega microcontrollers. The system consists of two main components:
 
-* **Receiver (RX):** An ATtiny-based receiver that interfaces with the Commodore 64 dual joystick port.
+* **Receiver (RX):** An ATtiny-based receiver that interfaces with the Commodore 64 dual joystick ports.
 * **Transmitter (TX):** An ATmega-based wireless joystick controller.
 
 ## 1. Disclaimer
