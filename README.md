@@ -31,7 +31,7 @@ The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to
 
 ### 2.3 Bill of Materials (BOM)
 
-The following provides a list of the main components. Refer to the EAGLE schematics for exact component values, quantities, and specifications etc.
+Here is a list of the main components. Refer to the EAGLE schematics for exact component, values, quantities, and specifications etc.
 
 #### Receiver
 ```
