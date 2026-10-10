@@ -37,20 +37,20 @@ The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to
 The following provides a list of the main components. Refer to the EAGLE schematics for exact component values, quantities, and specifications etc.
 
 #### Receiver
-
+```
 1 x ATTiny 1634
 1 x nRF24L01+
 1 x MCP1700 3.3V
 2 x 9-pin D-SUB Female (PCB board mount variety)
-
+```
 #### Transmitter
-
+```
 1 x ATMega 328p QFP32
 1 x nRF24L01+
 1 x TP4056 (for LIPO battery and USB charging)
 1 x Joystick, various buttons and a couple of pots
 1 x MCP1700 3.3V
-
+```
 ## 3. Firmware and Code
 
 The firmware is located in the [`code/`](code/) directory.
