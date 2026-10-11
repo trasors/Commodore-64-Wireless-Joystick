@@ -23,7 +23,7 @@ The transmitter uses an ATmega328p microcontroller to read joystick inputs and s
 
 ### 2.2 Receiver (RX)
 
-The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to receive joystick data and translate it into signals compatible with the Commodore 64 joystick port. For more information on the pin mapping see [control port mapping](C64ControlPort.md)
+The receiver uses an ATtiny 1634 microcontroller and an nRF24L01+ transceiver to receive joystick data and translate it into signals compatible with the Commodore 64 joystick port. For more information on the pin mapping see [control port mapping](docs/C64ControlPort.md)
 
 | PCB Layout | Overview | Top | Bottom |
 | --- | --- | --- | --- |
