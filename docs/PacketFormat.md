@@ -33,3 +33,4 @@ The packet format is borrowed heavily from the Digispark Joystick library. This 
 |Button 7         |    |1   |    |    |    |    |    |    |64     |
 |Button 8         |1   |    |    |    |    |    |    |    |128    |
 
+The code allows multiple button presses, for example pressing Button 1 & 2 result in 0b00000011 (decimal 3) being set.
