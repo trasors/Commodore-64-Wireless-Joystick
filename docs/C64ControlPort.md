@@ -2,7 +2,7 @@
 
 ATTiny 1634 to C64 control port mapping
 
-|Pin  |Direction|Port 1|Port 2|
+|Pin  |Function |Control Port 1|Control Port 2|
 |-----|---------|------|------|
 |1    |Up       |PA3   |PC4   |
 |2    |Down     |PA2   |PC2   |
@@ -14,4 +14,4 @@ ATTiny 1634 to C64 control port mapping
 |8    |GND      |      |      |
 |9    |Pot B    |      |      |
 
-
+Pxx refer to ATtiny1634 pins
