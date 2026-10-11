@@ -15,7 +15,7 @@ The EAGLE design files are located in the [`eagle/`](eagle/) directory. To modif
 
 ### 2.1 Transmitter (TX)
 
-The transmitter uses an ATmega328p microcontroller to read joystick inputs and send the corresponding button and directional states wirelessly via an nRF24L01+ transceiver. An MCP23008 was added to handle the extra buttons for MAME.
+The transmitter uses an ATmega328p microcontroller to read joystick inputs and send the corresponding button and directional states wirelessly via an nRF24L01+ transceiver. An MCP23008 was added to handle the extra buttons for MAME. A TP4056 module was added to charge a Lipo battery which powers the joystick.
 
 | PCB Layout | Top | Bottom |
 | --- | --- | --- |
@@ -50,12 +50,15 @@ Here is a list of the main components. Refer to the EAGLE schematics for exact c
 ```
 ## 3. Firmware and Code
 
-The firmware is located in the [`code/`](code/) directory.
-
-The code is divided into two main parts:
+The firmware is located in the [`code/`](code/) directory. The code is divided into two main parts:
 
 * **TX firmware:** Runs on the ATmega, reads the joystick inputs, and transmits their states over the nRF24 wireless link.
 * **RX firmware:** Runs on the ATtiny, receives the wireless data, and translates it into the appropriate signals for the Commodore 64 joystick interface.
+
+Notes on the [packet format](docs/PacketFormat.md):
+* Analog axes are not implemented in the RX code
+* Buttons 1-8 (except 5) register a button press on the C64 receiver
+* Button 5 is used to toggle joystick 1 and 2 on the C64 receiver
 
 ### 3.1 Source Code
 
@@ -85,5 +88,8 @@ The firmware depends on the following external libraries: -
 
 Here are some pictures of the final build
 
-![Joystick](images/joystick.jpg) | ![Wiring](images/wiring1.jpg) | ![Wiring](images/wiring2.jpg)
+![Joystick](images/joystick.jpg)
+![Wiring](images/wiring1.jpg)
+![Wiring](images/wiring2.jpg) 
+![Wiring](images/rx-connect.jpg) 
 
