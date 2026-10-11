@@ -7,7 +7,7 @@ A DIY wireless joystick system for the Commodore 64, using nRF24L01+ wireless mo
 
 ## 1. Disclaimer
 
-This project is provided **as-is**, without any guarantees of functionality or reliability etc. I built it in 2019 from various microcontrollers I was using at that time. It is not actively developed or maintained and uses hardware components and software libraries that are likely outdated. I am sharing as it may be useful for others for learning purposes or as a starting point to update and modernise. The useful bit is the C64 receiver PCB and code. The transmitter was mainly built for MAME use, but the C64 receiver only handles a subset of the buttons.
+This project is provided **as-is**, without any guarantees of functionality or reliability etc. I built it in 2019 from various microcontrollers I was using at that time. It is not actively developed or maintained and uses hardware components and software libraries that are likely outdated. I am sharing as it may be useful for others for learning purposes or as a starting point to update and modernise. The useful bit is the C64 receiver PCB and code. The transmitter was mainly built for MAME use and the C64 receiver only handles a subset of the buttons.
 
 ## 2. Hardware Design
 
